@@ -1,35 +1,12 @@
-{
-  "data":{
-      "video_content":{
-         "heading":"How It Works",
-         "short_content":"Angly is developed with easy component and file structure which is easy to modify or extend with new components.",
-         "content":[
-            "Select a page template.",
-            "Configure API url for content.",
-            "Map your data fields.",
-            "Enjoy dynamic pages with live content."
-         ],
-         "video_link": "https://www.youtube.com/watch?v=hw2smSOJIv4"
-      },
-      "mobile_featured":[
-         {
-            "icon_path":"ion-ios-crop",
-            "icon_class":"text-info",
-            "title":"Fully Responsive Design",
-            "content":"Fully responsive design on all browsers and mobiles devices without hiding any element."
-         },
-         {
-            "icon_path":"ion-ios-color-wand",
-            "icon_class":"text-success",
-            "title":"30+ Page Templates",
-            "content":"30+ Beautifully designed page templates for your blog, portfolio, gallery and any other type of content."
-         },
-         {
-            "icon_path":"ion-ios-albums",
-            "icon_class":"text-warning",
-            "title":"500+ UI elements",
-            "content":"Lots of UI elements and components gives you the power to build fully functional apps."
-         }
-      ]
-  }
-}
+//{
+//  "data":{
+//      "video_content":{
+//         "heading":"Visionary and Creative Professional",
+//         "short_content":" I am inspired by the marriage of art and technology.",
+//         "content":[
+//            "When I was 6, the yellow bus would pick me up in front of the house for art class. They taught us about color and perspective, drawing outside the lines. I fell in love. When I was 17, I went off to university. I fell in love again, this time with design. When I was 24, I realized that the synthesis of seemingly opposites, logic and creativity were the most fun way I that could spend my time."
+//         ],
+//         "video_link": "https://www.youtube.com/watch?v=hw2smSOJIv4"
+//      }
+//  }
+//}
