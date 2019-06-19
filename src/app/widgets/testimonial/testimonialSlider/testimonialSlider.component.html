@@ -4,21 +4,16 @@
       <div class="row">
          <div class="col-sm-12 col-md-7 mx-auto">
             <div class="carousel-item active text-center">
-               <h2 class="mb-5 text-white">Well Done Angly Team</h2>
-               <div class="testimonial-user mb-4">
-                  <img src="assets/img/1-team.jpg" class="img-fluid rounded-circle shadow-md" alt="testimonial user" width="100" height="100">
-               </div>
+               <h2 class="mb-5 text-white">Passiobn</h2>
                <div class="mb-4">
-                  <h5 class="text-white">Jeremy Chavez</h5>
-                  <span class="text-white font-sm">Web Designer</span>
+                  <h5 class="text-white">Jason Chase-Dobiash</h5>
+                  <span class="text-white font-sm">Senior User Experience Designer (UXD) / Visual Designer / Creative Director</span>
                </div>
-               <p class="text-white text-center">This I have produced as a scantling of Jack’s great eloquence and the force of his reasoning upon such abstruse matters.This I have produced as a scantling of Jack’s great eloquence and the force of his reasoning upon such abstruse matters.</p>
+               <p class="text-white text-center">Cristine is passionate about keeping up-to-date on the latest techniques and technologies and how they might be used to improve not only our product, but improving the world in general. "
+                 </p>
             </div>
             <div class="carousel-item text-center" *ngFor="let content of testimonialContent">
                <h2 class="mb-5 text-white">{{content?.title}}</h2>
-               <div class="testimonial-user mb-4">
-                  <img [src]="content?.avatar" class="img-fluid rounded-circle shadow-md" alt="testimonial user" width="100" height="100">
-               </div>
                <div class="mb-4">
                   <h5 class="text-white">{{content?.name}}</h5>
                   <span class="text-white font-sm">{{content?.type}}</span>
@@ -36,7 +31,7 @@
    </a>
    <a class="carousel-control-next" href="#testimonial-slide" role="button" data-slide="next">
    	<span class="carousel-control-next" aria-hidden="true">
-         <i class="ion-ios-arrow-dropright-circle font-2x"></i>  
+         <i class="ion-ios-arrow-dropright-circle font-2x"></i>
       </span>
    	<span class="sr-only">Next</span>
    </a>

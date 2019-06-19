@@ -1,88 +1,95 @@
 <div class="page-main-container">
-   <!-- Add portrait later -->
-   <div class="service section-gap">
-      <div class="container">
-         <div class="section-title-wrapper">
-           <div class="row">
-               <div class="col-sm-12 col-md-10 mx-auto text-center">
-                 <!--<img src="assets/img/Me_and_Annabelle.jpg" class="img-fluid" width="640" height="37">-->
+  <!-- Add portrait later -->
+  <div class="service section-gap">
+    <div class="container">
+      <div class="section-title-wrapper bg-light">
+        <div class="row">
+          <div class="col-sm-12 col-md-10 mx-auto text-center">
 
-               </div>
-           </div>
-         </div>
-         <div class="row" angly-serviceGrid [serviceGridContent]="services"></div>
-      </div>
-   </div>
+            <a href="javascript:void(0);" class="mr-12 d-block">
+              <img src="../../assets/img/3-team.jpg" class="img-fluid rounded-circle shadow-md text-center" height="300"
+                   width="300" alt="Cristine Baumgarten"/>
+            </a>
 
-   <!-- Visionary and Creative Professional grid-->
-   <div class="Gallery-grid">
-      <div class="container">
-         <div class="section-title-wrapper">
-            <div class="row">
-               <div class="col-sm-12 col-md-10 mx-auto text-center">
-                  <h2 class="font-2x"> Innovative and Creative Professional </h2>
-                  <p class="mb-0">
-                    When I was 6, the little yellow bus would pick me up in front of the house for art class. They taught us about color and perspective, drawing outside the lines. I fell in love. When I was 17, I fell in love again, this time with design. When I was 24, I realized that the synthesis of seemingly opposites, logic and creativity were the most fun way I that could spend my time.
-                  </p>
-               </div>
-               <div class="col-sm-12 col-md-10 mx-auto text-center">
-                <br><br>
-                <h2> Gallery</h2>
-                <p class="mb-0">I am inspired by the marriage of art and technology.
-                </p>
-              </div>
-            </div>
-         </div>
-         <div class="row" angly-gallaryGrid gridClass="col-sm-12 col-md-4 mb-4" [gallaryGridContent]="projectGallary"></div>
-      </div>
-   </div>
-   <!-- Posts grid -->
-   <div class="post-section bg-light">
-      <div class="container">
-         <div class="section-title-wrapper">
-            <div class="row">
-                <div class="col-sm-12 col-md-10 mx-auto text-center">
-                  <h2> Latest Blog Posts </h2>
-                </div>
-            </div>
-         </div>
-         <div class="card-deck">
-            <div class="row" angly-postGrid [postGridContent]="posts"></div>
-         </div>
-      </div>
-   </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-10 mx-auto ">
 
-   <!-- Testimonial -->
-   <div class="testimonial-section section-gap">
-      <div class="">
-         <div class="container">
-            <div angly-testimonial [testimonialContent]="testimonial"></div>
-         </div>
+        </div>
       </div>
-   </div>
-   <!-- Subscribe section -->
-   <div angly-subscribe [subscribeFormClasses]="subscribeFormClasses"></div>
-   <!-- Contact information section -->
-   <div class="contact-section section-gap">
+      <div class="row" angly-serviceGrid [serviceGridContent]="services"></div>
+
+    </div>
+  </div>
+
+  <!-- Visionary and Creative Professional grid-->
+  <div class="post-section  bg-light"><
+    <div class="container">
+      <div class="section-title-wrapper">
+        <div class="row">
+          <div class="col-sm-12 col-md-10 mx-auto text-center">
+            <h2 class="font-2x"> Innovative and Creative Professional </h2>
+
+
+            <p class="mb-0">
+              When I was 6, the little yellow bus would pick me up in front of the house for art class. They taught us
+              about color and perspective, drawing outside the lines. I fell in love. When I was 17, I fell in love
+              again, this time with design. When I was 24, I realized that the synthesis of seemingly opposites, logic
+              and creativity were the most fun way I that could spend my time.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-10 mx-auto text-center">
+            <br><br>
+            <h2> Projects</h2>
+            <p class="mb-0">I am inspired by the marriage of art and technology.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card-deck">
+        <div class="row" angly-postGrid [postGridContent]="posts"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonial -->
+  <div class="testimonial-section section-gap">
+    <div class="">
       <div class="container">
-         <div class="section-title-wrapper">
-            <div class="row">
-               <div class="col-sm-12 col-md-10 mx-auto text-center">
-                  <h2>Contact Information  </h2>
-               </div>
-            </div>
-         </div>
-         <div class="row" angly-homeContact [contact]="contact"></div>
+        <div angly-testimonial [testimonialContent]="testimonial"></div>
       </div>
-   </div>
-   <!-- Send message section -->
-   <div class="send-msg section-gap style-form">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12 col-md-10 col-lg-7 mx-auto">
-                  <div angly-sendMessage></div>
-               </div>
-            </div>
-         </div>
-   </div>
+    </div>
+  </div>
+  <!-- Contact information section -->
+  <div class="contact-section section-gap">
+    <div class="carousel-item text-center">
+      <h2 class="mb-5 text-white">“Passionate"</h2>
+      <div class="mb-4">
+        <h5 class="text-white">Jason Chase-Dobiash</h5>
+        <span class="text-white opacity-07">Senior User Experience Designer (UXD) / Visual Designer / Creative Director</span>
+      </div>
+      <p class="text-white text-center opacity-07">TShe is also passionate about keeping up-to-date on the latest techniques and technologies and how they might be used
+        to improve not only our product, but improving the world in general.</p>
+    </div>
+    <div class="container">
+      <div class="section-title-wrapper">
+        <div class="row">
+          <div class="col-sm-12 col-md-10 mx-auto text-center">
+            <h2>Let's Talk!</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row" angly-homeContact [contact]="contact"></div>
+    </div>
+  </div>
+  <!-- Send message section -->
+  <div class="send-msg section-gap style-form">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-10 col-lg-7 mx-auto">
+          <div angly-sendMessage></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
