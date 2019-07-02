@@ -6,10 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { PortfolioRoutes } from './portfolio.routing';
 import { WidgetsModule } from '../widgets/widgets.module';
 
-import { PortfolioGridV1Component } from './portfolioGridV1/portfolioGridV1.component';
 import { PortfolioGridV2Component } from './portfolioGridV2/portfolioGridV2.component';
-import { PortfolioGridV3Component } from './portfolioGridV3/portfolioGridV3.component';
-
 @NgModule({
   imports: [
     CommonModule,
@@ -18,9 +15,7 @@ import { PortfolioGridV3Component } from './portfolioGridV3/portfolioGridV3.comp
     WidgetsModule
   ],
   declarations: [ 
-  	PortfolioGridV1Component, 
-  	PortfolioGridV2Component, 
-  	PortfolioGridV3Component
+  	PortfolioGridV2Component
   ]
 })
 export class PortfolioModule { }

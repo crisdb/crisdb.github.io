@@ -136,13 +136,6 @@ export class ChkService {
       return this.http.get<Response>("assets/data/testimonial.json").pipe(map(response => response.data));
    }
 
-   /*
-    * Get portfolio-v1.
-    */
-   getPortfolioV1()
-   {
-    return this.http.get<Response>("assets/data/portfolio-v1.json").pipe(map(response => response.data));
-   }
 
    /*
     * Get portfolio-v2.
@@ -150,14 +143,6 @@ export class ChkService {
    getPortfolioV2()
    {
       return this.http.get<Response>("assets/data/portfolio-v2.json").pipe(map(response => response.data));
-   }
-
-   /*
-    * Get portfolio-v3.
-    */
-   getPortfolioV3()
-   {
-      return this.http.get<Response>("assets/data/portfolio-v3.json").pipe(map(response => response.data));
    }
 
    /*

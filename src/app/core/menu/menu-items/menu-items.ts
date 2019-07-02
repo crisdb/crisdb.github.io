@@ -38,9 +38,7 @@ const HEADERMENUITEMS = [
          { state: 'support', name: 'Support', type:"link"},
          { state: 'pricing', name: 'Pricing', type:"link"},
          { state: 'search', name: 'Search', type:"link"},
-         { state: 'portfolio-v1', name: 'Portfolio V1', type:"link"},
          { state: 'portfolio-v2', name: 'Portfolio V2', type:"link"},
-         { state: 'portfolio-v3', name: 'Portfolio V3', type:"link"},
          { state: 'testimonial-v1', name: 'Testimonial V1', type:"link"},
          { state: 'testimonial-v2', name: 'Testimonial V2', type:"link"}  
       ]
