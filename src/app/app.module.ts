@@ -32,6 +32,7 @@ import { SearchComponent } from './search/search.component';
 import { SupportComponent } from './support/support.component';
 import { Footer2Component } from './footer2/footer2.component';
 import { sidebarWidgetsComponent } from './sidebarWidgets/sidebarWidgets.component';
+import {PortfolioModule} from "./portfolio/portfolio.module";
 
 @NgModule({
    declarations: [
@@ -50,21 +51,22 @@ import { sidebarWidgetsComponent } from './sidebarWidgets/sidebarWidgets.compone
       Footer2Component,
       sidebarWidgetsComponent,
    ],
-   imports: [
-      BrowserModule,
-      BrowserAnimationsModule,
-      FormsModule,
-      ReactiveFormsModule,
-      HttpClientModule,
-      AppRoutingModule,
-      WidgetsModule,
-      MenuToggleModule,
-      DirectivesModule,
-      SlickModule.forRoot(),
-      AgmCoreModule.forRoot({
-         apiKey: 'AIzaSyD4y2luRxfM8Q8yKHSLdOOdNpkiilVhD9k'
-      })
-   ],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    AppRoutingModule,
+    WidgetsModule,
+    MenuToggleModule,
+    DirectivesModule,
+    SlickModule.forRoot(),
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyD4y2luRxfM8Q8yKHSLdOOdNpkiilVhD9k'
+    }),
+    PortfolioModule
+  ],
    providers: [
       MenuItems,
       PageTitleService,

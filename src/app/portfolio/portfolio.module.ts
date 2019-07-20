@@ -14,8 +14,11 @@ import { PortfolioGridV2Component } from './portfolioGridV2/portfolioGridV2.comp
     RouterModule.forChild(PortfolioRoutes),
     WidgetsModule
   ],
-  declarations: [ 
-  	PortfolioGridV2Component
+  exports: [
+    PortfolioGridV2Component
+  ],
+  declarations: [
+    PortfolioGridV2Component
   ]
 })
 export class PortfolioModule { }
