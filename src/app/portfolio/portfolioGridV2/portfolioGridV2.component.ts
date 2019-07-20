@@ -15,10 +15,10 @@ export class PortfolioGridV2Component implements OnInit {
    constructor(private service:ChkService, private pageTitleService:PageTitleService) {
 
       /* Page title */
-      this.pageTitleService.setTitle(" Our Latest Work ");
+      this.pageTitleService.setTitle(" My Our Latest Work ");
 
       /* Page subTitle */
-      this.pageTitleService.setSubTitle(" We build something great in the world. ");
+      this.pageTitleService.setSubTitle(" Building something great in the world. ");
 
       this.service.getPortfolioV2().
          subscribe(response => {this.portfolioV2 = response},

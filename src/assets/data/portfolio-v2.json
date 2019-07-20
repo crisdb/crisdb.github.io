@@ -2,38 +2,21 @@
   "data":[
     {
       "image_path":"./assets/img/1-project.jpg",
-      "title":"Productivity tools",
-      "heading":"Beautiful Designs",
-      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+      "title":"Development",
+      "heading":"Web Applications",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "url": "'src/app/portfolio/portfolioGridV3/portfolioGridV3.component.html"
     },
     {
       "image_path":"./assets/img/2-project.jpg",
-      "title":"Productivity tools",
-      "heading":"Mutifunctionals Blocks",
+      "title":"UI Design",
+      "heading":"Beautiful Designs for any interface",
       "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     {
       "image_path":"./assets/img/3-project.jpg",
-      "title":"Productivity tools",
-      "heading":"Angular App For Game",
-      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    },
-    {
-      "image_path":"./assets/img/4-project.jpg",
-      "title":"Productivity tools",
-      "heading":"HD Images For Portfolio",
-      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    },
-    {
-      "image_path":"./assets/img/5-project.jpg",
-      "title":"Productivity tools",
-      "heading":"HTML 5 App For Game",
-      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    },
-    {
-      "image_path":"./assets/img/6-project.jpg",
-      "title":"Productivity tools",
-      "heading":"Latest Design Modules",
+      "title":"UX Planning",
+      "heading":"A great experience",
       "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     }
   ]

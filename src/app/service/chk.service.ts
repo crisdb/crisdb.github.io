@@ -136,15 +136,6 @@ export class ChkService {
       return this.http.get<Response>("assets/data/testimonial.json").pipe(map(response => response.data));
    }
 
-
-   /*
-    * Get portfolio-v2.
-    */
-   getPortfolioV2()
-   {
-      return this.http.get<Response>("assets/data/portfolio-v2.json").pipe(map(response => response.data));
-   }
-
    /*
    * Get the content of pricing page.
    */
@@ -313,5 +304,20 @@ export class ChkService {
    {
       return this.http.get<Response>("assets/data/related-products.json").pipe(map(response => response.data));
    }
+  /*
+       * Get portfolio-v2.
+       */
+  getPortfolioV2()
+  {
+    return this.http.get<Response>("assets/data/portfolio-v2.json").pipe(map(response => response.data));
+  }
+
+  /*
+       * Get portfolio-v3.
+       */
+  getPortfolioV3()
+  {
+    return this.http.get<Response>("assets/data/portfolio-v3.json").pipe(map(response => response.data));
+  }
 
 }
