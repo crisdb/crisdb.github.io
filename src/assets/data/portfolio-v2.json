@@ -3,21 +3,17 @@
     {
       "image_path":"./assets/img/1-project.jpg",
       "title":"Development",
-      "heading":"Web Applications",
-      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      "url": "'src/app/portfolio/portfolioGridV3/portfolioGridV3.component.html"
+      "heading":"Web Applications"
     },
     {
       "image_path":"./assets/img/2-project.jpg",
       "title":"UI Design",
-      "heading":"Beautiful Designs for any interface",
-      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+      "heading":"Beautiful Designs for any interface"
     },
     {
       "image_path":"./assets/img/3-project.jpg",
       "title":"UX Planning",
-      "heading":"A great experience",
-      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+      "heading":"A great experience"
     }
   ]
 }

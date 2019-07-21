@@ -3,12 +3,12 @@
    <div class="container">
       <div class="row">
          <div class="col-sm-12 col-md-6 col-lg-4 mb-5" *ngFor="let portfolio of portfolioV2">
-            <div class="overlay-wrap mb-4">
+           <div class="overlay-wrap mb-4">
                <img [src] ="portfolio?.image_path" width="500" height="500" class="img-fluid border-rad w-100" alt="gallery images" />
                <a href="{{portfolio?.image_path}}" data-fancybox="images" class="card-img-overlay primary-tp-layer pos-center text-center">
                   <span class="center-holder">
                      <a class="ih-fade-down square-40 rounded-circle bg-white shadow-md">
-                        <i class="fa fa-plus align-middle"></i>
+                        <i class="fa fa-search"></i>
                      </a>
                   </span>
                </a>
@@ -25,4 +25,5 @@
          </div>
       </div>
    </div>
+  <a href="../portfolioGridV3" class="btn btn-primary btn-md"> SEE MORE </a>
 </div>
