@@ -1,39 +1,19 @@
 {
   "data":{
-    "business_hours":[
-      {
-         "status":1,
-         "value":"Happy to live in Colorado"
-      },
-      {
-         "status":0,
-         "value":"Saturday: 9am to 17 pm"
-      },
-      {
-         "status":0,
-         "value":"Sunday: day off"
-      }
-    ],
     "phone":[
       {
          "status":1,
-         "value":"+123 456 7890"
-      },
-      {
-         "status":0,
-         "value":"+123 456 7890"
+         "value":"+1 813-300-3048"
       }
     ],
     "email":[
       {
          "status":1,
          "value":"cb@venusdevelopment.com"
-      },
-      {
-         "status":0,
-         "value":"support@theironnetwork.org"
       }
     ],
-    "location": "E-51, Industrial area, Phase 8 Mohali, Punjab"
-    }
+    "location": "Happy to Live in Colorado!"
+    },
+
+   "linkedin": "Happy to Live in Colorado!"
 }
