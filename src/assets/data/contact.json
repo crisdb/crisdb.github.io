@@ -1,17 +1,15 @@
 {
-  "data":{
-    "phone":[
+  "data": {
+    "phone": [
       {
-         "status":1,
-         "value":"+1 813-300-3048"
+        "status": 1,
+        "value": "+1 813-300-3048"
       }
     ],
-    "email":[
-      {
-         "status":1,
-         "value":"cb@venusdevelopment.com"
-      }
-    ],
-    "location": "Happy to Live in Colorado!"
-    }
+    "linkedin": "Connect Together!",
+    "location": "Happy to Live in Colorado :)"
+  }
 }
+
+
+

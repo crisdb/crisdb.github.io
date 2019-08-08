@@ -2,7 +2,7 @@
  * Home contact
  * Used in another component.
  */
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: '[angly-homeContact]',
@@ -12,9 +12,6 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 export class HomeContactComponent implements OnInit {
 
    @Input() contact : any;
-   lat: number = 39.5186;
-	lng: number = 104.7614;
-
    constructor() { }
 
    ngOnInit() {

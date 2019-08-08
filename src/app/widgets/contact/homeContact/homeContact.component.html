@@ -5,16 +5,11 @@
       <div class="media-body">
         <h5 class="mb-3"> My Location </h5>
         <span>{{contact?.location}}</span>
-        <span *ngFor="let hours of contact?.business_hours">
-               <span *ngIf="hours?.status == 1">
-                  {{hours?.value}}
-               </span>
-         </span>
       </div>
     </li>
     <li class="media mb-5">
       <div class="d-flex mr-4"><i class="ion-ios-chatboxes font-3x text-warning"></i></div>
-      <div class="media-body">
+       <div class="media-body">
         <h5 class="mb-3"> Contact Info </h5>
         <span *ngFor="let email of contact?.email">
                <span *ngIf="email?.status == 1">
@@ -27,18 +22,11 @@
                </span>
          </span>
       </div>
-
     <li class="media mb-5">
-
-      <div class="d-flex mr-4"><a href="https://www.linkedin.com/in/cristinebaumgarten/"><i
-        class="fa fa-linkedin fa-2x"></i></a></div>
+      <div class="d-flex mr-4"><i class="fa fa-linkedin fa-3x text-primary"></i></div>
       <div class="media-body">
-        <span> <h5 class="mb-3"> LinkedIn </h5></span>
-        <span *ngFor="let linkedin of contact?.linkedin">
-               <span *ngIf="linkedin?.status == 1">
-                  <a href="mailto:{{linkedin?.value}}" class="d-block mb-1 text-dark">{{linkedin?.value}}</a>
-               </span>
-         </span>
+        <h5 class="mb-3"> LinkedIn </h5>
+        <span>{{contact?.linkedin}}</span>
       </div>
     </li>
   </ul>
