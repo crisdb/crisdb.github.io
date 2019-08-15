@@ -26,21 +26,26 @@ const HEADERMENUITEMS = [
       name: "Home",
       type:"link"
    },
-   {
-      state:"",
-      name:"Pages",
-      type:"sub",
-      icon: 'fa fa-caret-down',
-      children: [
-         // { state: 'about', name: 'About', type:"link"},
-         // { state: 'features', name: 'Features', type:"link"},
-         // { state: 'contact', name: 'Contact', type:"link"},
-         // { state: 'support', name: 'Support', type:"link"},
-         // { state: 'pricing', name: 'Pricing', type:"link"},
-         // { state: 'search', name: 'Search', type:"link"},
-         { state: 'portfolio-v3', name: 'Portfolio', type:"link"},
-      ]
-   },
+  {
+    state: "portfolio-v3",
+    name: "Latest Work",
+    type:"link"
+  },
+   // {
+   //    state:"",
+   //    name:"Pages",
+   //    type:"sub",
+   //    icon: 'fa fa-caret-down',
+   //    children: [
+   //       // { state: 'about', name: 'About', type:"link"},
+   //       // { state: 'features', name: 'Features', type:"link"},
+   //       // { state: 'contact', name: 'Contact', type:"link"},
+   //       // { state: 'support', name: 'Support', type:"link"},
+   //       // { state: 'pricing', name: 'Pricing', type:"link"},
+   //       // { state: 'search', name: 'Search', type:"link"},
+   //       { state: 'portfolio-v3', name: 'Portfolio', type:"link"},
+   //    ]
+   // },
    // {
    //    state:"",
    //    name:"Features",
