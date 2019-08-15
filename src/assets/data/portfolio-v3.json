@@ -5,8 +5,8 @@
       "title":"Responsive UIs",
       "title_color":"bg-info",
       "heading":"Jeppesen:'A Boeing Company'",
-      "read_more_url":"javascript:void(0);",
-      "content": "Case: The Ground Controls software creates mission critical navigation charts for commercial airlines. This responsive, Angular based project, can be used on either an extremely large screen or a hand held device. If in flight, crew are able to add legs to a flight via Material Components. The challenge was updating PrimeFaces components to Material design components, and working with various grid systems to create natural breakpoints."
+      "read_more_url":"https://ww2.jeppesen.com/data-solutions/ground-controls/",
+      "content": "Case: The Ground Controls web=based application creates mission critical navigation charts for commercial airlines. This responsive, Angular based project, can be used on either an extremely large screen or a hand held device. Crew are able to add legs to a flight via Material Components. The challenge was updating PrimeFaces components to Material design components, and working with various grid systems to create natural breakpoints. The video at the below link 21-35 seconds, shows the UI that I  built in use."
    },
    {
       "image_path":"./assets/img/2-project.jpg",
