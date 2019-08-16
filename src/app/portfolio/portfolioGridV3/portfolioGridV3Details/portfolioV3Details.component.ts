@@ -22,10 +22,9 @@ export class PortfolioGridV3DetailsComponent implements OnInit {
 	constructor(private pageTitleService: PageTitleService, private service:ChkService) {
 
 	  /* Page title */
-	  this.pageTitleService.setTitle(" Latest Details");
-
+	  this.pageTitleService.setTitle("JPMorgan & Chase");
 	  /* Page subTitle */
-	  this.pageTitleService.setSubTitle(" Build something incredible! ");
+	  // this.pageTitleService.setSubTitle(" Build something incredible! ");
 
     this.service.getcategories().
        subscribe(response => {this.categories = response},
