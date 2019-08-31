@@ -1,10 +1,11 @@
 {
    "data":[
+
        {
          "title":"Insightful",
          "name":"Ryan Alberts",
          "type":"System Architecht / Manager",
-         "content":"\"Cristine is insightful and skilled in so many aspects - establishing a UX vision, wire-framing, theme setting, generating feedback, writing the code - you name it. Cristine is such a pleasure to work with on the same team! \" "
+         "content":"\"Cristine is insightful and skilled in so many aspects - establishing a UX vision, wire-framing, theme setting, generating feedback, writing the code - you name it! \" "
       },
      {
        "title":"Innovative",
@@ -16,7 +17,7 @@
          "title":"Integrity",
          "name":"Julia Moravcisk",
          "type":"UX Designer",
-         "content":"\"I am impressed by her passion. Her ability to translate and code my wireframes into a finished product have made her an absolute pleasure to work with. She has always shown the utmost integrity and professionalism.\""
+         "content":"\"Her ability to translate my wireframes into a finished product have made her an absolute pleasure to work with. She has always shown the utmost integrity and professionalism.\""
       }
    ]
 }
