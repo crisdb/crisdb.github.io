@@ -18,9 +18,8 @@ export class PortfolioGridV3Component implements OnInit {
       this.pageTitleService.setTitle(" Case Studies ");
 
       /* Page subTitle */
-      this.pageTitleService.setSubTitle("In no particular order");
-
-      this.service.getPortfolioV3().
+      // this.pageTitleService.setSubTitle("In no particular order");
+     this.service.getPortfolioV3().
          subscribe(response => {this.portfolioV3 = response},
                      err    => console.log(err),
                      ()     => this.portfolioV3
