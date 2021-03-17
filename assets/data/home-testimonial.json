@@ -1,0 +1,23 @@
+{
+   "data":[
+
+       {
+         "title":"Insightful",
+         "name":"Ryan Alberts",
+         "type":"System Architecht / Manager",
+         "content":"\"Cristine is insightful and skilled in so many aspects - establishing a UX vision, wire-framing, theme setting, generating feedback, writing the code - you name it! \" "
+      },
+     {
+       "title":"Innovative",
+       "name":"Bruce Clark",
+       "type":"VP Product Design",
+       "content":"\"She approaches every task with care and brings unique solutions to the table. Because her skillset crosses design and engineering she's a great hybrid on a front-end team.\""
+     },
+       {
+         "title":"Integrity",
+         "name":"Julia Moravcisk",
+         "type":"UX Designer",
+         "content":"\"Her ability to translate my wireframes into a finished product have made her an absolute pleasure to work with. She has always shown the utmost integrity and professionalism.\""
+      }
+   ]
+}

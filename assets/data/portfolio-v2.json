@@ -1,0 +1,19 @@
+{
+  "data":[
+    {
+      "image_path":"./assets/img/1-project.jpg",
+      "title":"Development",
+      "heading":"Responsive Applications"
+    },
+    {
+      "image_path":"./assets/img/2-project.jpg",
+      "title":"UI Design",
+      "heading":"Beautiful Designs for any interface"
+    },
+    {
+      "image_path":"./assets/img/3-project.jpg",
+      "title":"UX Planning",
+      "heading":"Great experiences"
+    }
+  ]
+}

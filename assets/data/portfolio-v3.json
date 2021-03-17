@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "image_path": "./assets/img/1-project.jpg",
+      "title": "Responsive UIs",
+      "title_color": "bg-info",
+      "heading": "Jeppesen, A Boeing Company",
+      "read_more_url": "https://ww2.jeppesen.com/data-solutions/ground-controls/",
+      "content": "Shown: The Ground Controls web based application creates mission critical navigation charts for commercial airlines. This responsive, Angular based project, can be used on either an extremely large screen or a hand held device. Crew are able to add legs to a flight via Material Components. The challenge was updating PrimeFaces components to Material design components, and working with various grid systems to create natural breakpoints. The video at the below link 21-35 seconds, shows the UI which I built - the visual UI - currently (2019) in use."
+    },
+    {
+      "image_path": "./assets/img/2-project.jpg",
+      "title": "Look and Feel",
+      "title_color": "badge-warning",
+      "heading": "JPMorgan & Chase",
+      "read_more_url": "/portfolio-v3-details",
+      "content": "Shown: Digital Gaming. Unique customer base for the bank, needed an eye-catching landing page that reflected the gaming industry. Working with Data Analysts, back end developers and Marketing, other projects at Chase included skinning legacy applications and building new GUIs."
+    },
+    {
+      "image_path": "./assets/img/3-project.jpg",
+      "title": "Planning | Design Systems | Development",
+      "title_color": "bg-yellow",
+      "heading": "Intelligent Software Solutions",
+      "read_more_url": "javascript:void(0);",
+      "content": "Shown: Architecture design proposal for Alerting and Notifications. Created visualizations for data UIs for real-time military incident response reporting software, actively deployed around the world. Projects focused around software to human interaction. Wireframed, designed and built many dashboards using HTML / CSS / JavaScript across platforms and browsers, and organizational silos, to create new applications with shared UI components. Top Secret Clearance, US Department of Defense."
+    },
+    {
+      "image_path": "./assets/img/5-project.jpg",
+      "title": "Core Experience Framework (ISS)",
+      "title_color": "badge-danger",
+      "heading": "Visual Design Language",
+      "read_more_url": "javascript:void(0);",
+      "content": "Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi."
+    },
+    {
+      "image_path": "./assets/img/6-project.jpg",
+      "title": "Harris / Boeing / Venus Development",
+      "title_color": "badge-danger",
+      "heading": "Venus Development LLC",
+      "read_more_url": "javascript:void(0);",
+      "content": "I founded Venus Development in 2011 to work as the Web Portal Technical Lead on a $128 Million Army contract proposal. Venus Development proposed and analyzed technical feasibility, security, risk, efficiency, and flexibility for the \"HOOAH!\" web portal. I also evaluated development time, costs, and vehicles as well as collaborated with Harris and Boeing Program Management, Business Development, Training, and Depot Maintenance Leads in order to maintain continuity logs, milestones, document training instructions and work flows."
+    }
+  ]
+}

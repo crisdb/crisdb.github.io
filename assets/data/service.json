@@ -1,0 +1,29 @@
+{
+   "data":[
+
+      {
+        "icon":{
+          "name":"ion-ios-brush",
+          "color":"text-primary"
+        },
+        "title":" Innovative Designs ",
+        "content":"Beautiful from the ground up, or following a guide. "
+      },
+      {
+        "icon":{
+          "name":"ion-ios-infinite",
+          "color":"text-info"
+        },
+        "title":" Effective UI ",
+        "content":" UI Development, pixel perfect."
+      },
+     {
+       "icon":{
+         "name":"ion-ios-bulb",
+         "color":"text-warning"
+       },
+       "title":" Smart Wireframes ",
+       "content":"How it should work. "
+     }
+   ]
+}
